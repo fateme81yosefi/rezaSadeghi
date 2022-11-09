@@ -1,0 +1,178 @@
+.containform {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgba(40, 45, 103, 1);
+  font-weight: bolder;
+  height: 80vh;
+  position: relative;
+}
+.containform h1 {
+  font-weight: bolder;
+  background: rgba(40, 45, 103);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: -228px;
+  margin-bottom: 12%;
+  color: white;
+}
+.dark {
+  background-color: #282d67;
+}
+.dark-nav{
+  background-color: #282d67;
+
+}
+.here {
+  color: red;
+  text-decoration: underline;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.containform input {
+  color: rgba(40, 45, 103, 1);
+
+  text-align: end;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(2px);
+  border-radius: 25px;
+  width: 66%;
+  padding: 7px;
+  border: 2px solid rgba(40, 45, 103, 1);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(2px);
+  border-radius: 25px;
+  margin-bottom: 28px;
+  font-weight: bolder;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  color: rgba(40, 45, 103, 1);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(2px);
+  width: 100%;
+  border-radius: 25px;
+  border: none;
+  padding: 7px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 66%;
+  border: 2px solid rgba(40, 45, 103, 1);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(2px);
+  border-radius: 25px;
+  margin-top: 28px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom-radius: 10px;
+  width: 100%;
+  /* border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgba(40, 45, 103, 1);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 2px solid rgba(40, 45, 103, 1);
+  border-bottom-radius: 10px;
+  border-bottom: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background: rgba(40, 45, 103, 0.5);
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.imgDesign {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .containform h1 {
+    margin-top: -222px;
+    margin-bottom: 7%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .containform h1 {
+    font-weight: bolder;
+    background: transparent;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: rgba(40, 45, 103, 1);
+  }
+  .containform input {
+    width: 33%;
+  }
+  .dropdown {
+    width: 33%;
+  }
+  .imgDesign {
+    position: absolute;
+    width: 9%;
+    z-index: 11;
+    display: block;
+  }
+  .topright {
+    top: 20px;
+    right: 35px;
+  }
+  .topleft {
+    top: 20px;
+    left: 35px;
+    rotate: -90deg;
+  }
+  .bottomright {
+    bottom: 20px;
+    right: 35px;
+    rotate: 90deg;
+  }
+  .bottomleft {
+    bottom: 20px;
+    left: 35px;
+    rotate: -180deg;
+  }
+}

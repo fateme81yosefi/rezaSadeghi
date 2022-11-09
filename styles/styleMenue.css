@@ -1,0 +1,66 @@
+
+.menue-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark {
+  background-color: #282d67;
+}
+.dark-nav{
+  background-color: #282d67;
+
+}
+.li-item {
+  height: 94px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+  color: #282d67;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  border-radius: 20px;
+  width: 99%;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.imgDesign {
+  position: absolute;
+  width: 30%;
+  display: none;
+  z-index: 11;
+}
+.colorCustom{
+  color: rgba(40, 45, 103, 1) ;
+  text-decoration:none !important;
+}
+.topright {
+  top: 20px;
+  right: 35px;
+}
+.topleft {
+  top: 20px;
+  left: 35px;
+  rotate: -90deg;
+}
+.bottomright {
+  bottom: 20px;
+  right: 35px;
+  rotate: 90deg;
+}
+.bottomleft {
+  bottom: 20px;
+  left: 35px;
+  rotate: -180deg;
+}
+@media screen and (min-width: 992px) {
+  .li-item {
+    height: 70vh;
+  }
+  .imgDesign {
+
+    display: flex;
+  }
+}
